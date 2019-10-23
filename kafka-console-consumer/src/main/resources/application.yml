@@ -1,0 +1,19 @@
+# Spring Boot
+spring:
+  banner:
+    location: banner.txt
+
+# Camel Spring Boot
+camel:
+  springboot:
+    name: kafka-console-consumer
+    main-run-controller: true
+  component:
+    kafka.configuration:
+      brokers: "localhost:9092"
+
+# Logging
+logging:
+  level:
+    root: ERROR
+    #org.apache.camel.examples: DEBUG

@@ -38,10 +38,16 @@ limitations under the License.
 
     <camel.version>2.23.2</camel.version>
     <spring-boot.version>2.1.4.RELEASE</spring-boot.version>
+    <kafka-clients.version>2.3.0</kafka-clients.version>
   </properties>
 
   <dependencyManagement>
     <dependencies>
+      <dependency>
+        <groupId>org.apache.kafka</groupId>
+        <artifactId>kafka-clients</artifactId>
+        <version>${kafka-clients.version}</version>
+      </dependency>
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-dependencies</artifactId>

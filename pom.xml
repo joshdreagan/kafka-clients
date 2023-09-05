@@ -38,7 +38,7 @@ limitations under the License.
 
     <camel.version>2.23.2</camel.version>
     <spring-boot.version>2.1.4.RELEASE</spring-boot.version>
-    <kafka-clients.version>2.3.0</kafka-clients.version>
+    <kafka-clients.version>2.6.3</kafka-clients.version>
   </properties>
 
   <dependencyManagement>
